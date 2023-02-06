@@ -1,10 +1,8 @@
-package example.hellospring.Service;
+package example.hellospring.service;
 
 import example.hellospring.domain.Member;
 import example.hellospring.repository.MemberRepository;
-import example.hellospring.repository.MemoryMemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
